@@ -1,40 +1,185 @@
 <html>
     <head>
-        <title>HTML Practice Page</title>
-        <meta>
-    </head>
-    <body>
-        <h1 id="heading">Largest heading</h1>
-        <h3 style="color:crimson">Sub-heading</h3>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practice Page</title>
+        <style>
+  
+    body {
+        font-family: 'Segoe UI';
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #fcfcfc;
+        color: #333;
+    }
+    h1#\ biggerheading {
+        text-align: center;
+        font-size: 4rem;
+        text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+        color: grey
+    }
+    h1#\ biggerheading:hover {
+        color: #ff4757;
+    }
+    h3#\ smallerheading {
+        text-align: center;
+        color: #b19cd9;
+        letter-spacing: 5px;
+        opacity: 0.8;
+    }
+    p.intro-text {
+        background:goldenrod;
+        border-radius: 20px;
+        padding: 30px;
+        line-height: 2;
+    }
+    p.notintro-text {
+        border: 5px solid #333;
+        background-color: #fff176;
+        padding: 15px;
+        transform: rotate(-1deg);
+        margin: 30px 0;
+    }
+    hr {
+        width: 30%;
+        height: 8px;
+        background-color: #ff7f50;
+        border: 40px;
+        border-radius: 10px;
+        margin: 40px auto;
+    }
 
-        <p class="Intro" style="font-size: 2em;">
-            Hi, I'm <b><i>Kartik Wagh</i></b> <br>
-            Studying at <strong>ITM Skills University</strong></p>
-            <hr style="color: black">
-            <pre style="color:darkblue;">Subjects currently studying</pre>
-            <ul>
-                <li>C++</li>
-                <li>Javascript</li>
-                <li>HTML&CSS</li>
-            </ul>
-            <hr>
-            My Friend's Name
-            <ol id="abc">
-                <li>Kunwar</li>
-                <li>Pari</li>
-                <li>Aditya</li>
-            </ol>
-            <a href="https://www.wikipedia.org" target="_blank" class="external-link" style="color: orange; text-decoration: none; font-weight: bold;">Visit Wikipedia (New Tab)</a>
+
+    pre {
+        background-color: #1e1e1e;
+        color: #00ff41 !important; 
+        font-family: 'Courier New', monospace;
+        padding: 20px;
+        border-radius: 5px;
+        overflow-x: auto;
+    }
+    ul.feature-list {
+        list-style: none;
+        padding: 20px;
+        background-color: #fff0f5;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+    ul.feature-list li {
+        font-style: italic;
+        color: #d87093;
+    }
+    ol.feature-list {
+        list-style-type: upper-roman;
+        font-weight: bold;
+        padding-left: 50px;
+        margin: 30px 0;
+    }
+    ol.feature-list li {
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+    }
+
+    
+    .external-link {
+        color: #666 !important; 
+        text-decoration: none !important;
+        transition: all 0.3s;
+    }
+    .external-link:hover {
+        text-decoration: underline !important;
+        color: #000 !important;
+    }
+
+    
+    div {
+        border: 1px solid #eee;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        border-radius: 15px;
+        padding: 25px;
+        margin: 20px 0;
+        background: white;
+    }
+    span {
+        color: #ff4757 !important;
+        font-size: 1.4rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+    #submit-btn {
+        display: block;
+        width: 200px;
+        margin: 20px auto;
+        padding: 15px;
+        border-radius: 50px;
+        border: none !important;
+        cursor: pointer;
+        font-weight: bold;
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    #submit-btn:hover {
+        background-color: #000 !important;
+        color: #fff;
+        box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+        transform: scale(1.2);
+    }
+
+    
+    .page-footer {
+        text-align: center;
+        color: #aaa !important;
+        font-size: 0.7rem !important;
+        margin-top: 50px !important;
+        border-top: 1px solid #eee;
+        padding-top: 20px;
+    }
+      </style>
+
+    </head>
+<body>
+
+    <h1 id=" biggerheading">HTML Practice Page</h1>
+    <h3 style="color:rgb(156, 7, 182)">This is a sub heading</h3>
+    <p class="intro-text">
+         <b>This will be in bold</b><br><strong>It changes the width and height according to changing the size</strong><br>
+         <i>This will be in Italic</i><br><em>This will be in em</em> web pages.
+    </p>
+    <p class="notintro-text">
+        This is an  important info paragraph.
+    </p>
+        <hr style="border:3px goldenrod">
+    <pre style="color: rgb(255, 101, 5);">
+        This text
+                   maintains    spaces
+        and line
+                   breaks exactly.
+    </pre>
+    <ul class="feature-list">
+        <li>Bold</li>
+        <li>Strong</li>
+        <li>Itallic</li>
+    </ul>
+        <hr style="border:3px goldenrod">
+    <ol class="feature-list">
+        <li>Bold</li>
+        <li>Strong</li>
+        <li>Itallic</li>
+        </ol>
+    
+    <a href="https://www.wikipedia.org" target="_blank" class="external-link" style="color: orange; text-decoration: none; font-weight: bold;">Visit Wikipedia (New Tab)</a>
    
    
     <div>
-       Today is a  <span style="color: royalblue; font-weight: bold;">wonderful</span> day for coding.
+        The weather today is <span style="color: royalblue; font-weight: bold;">wonderful</span> for coding.
     </div>
 
     <button id="submit-btn" style="background-color: gold; border: 1px solid black; padding: 5px 10px;">Submit</button>
 
     <footer class="page-footer" style="font-size: 0.8em; margin-top: 20px;">
-       End of the page(Footer)
+        Practice Page (footer)
     </footer>
 </body>
 </html>
