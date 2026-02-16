@@ -13,3 +13,5 @@
 <img width="1470" height="956" alt="Screenshot 2026-01-13 at 9 49 10 AM" src="https://github.com/user-attachments/assets/43a1e1d3-90ba-4925-bb77-ee3ad189bbb6" />
 <img width="1470" height="956" alt="Screenshot 2026-01-13 at 9 49 18 AM" src="https://github.com/user-attachments/assets/e7902df9-35a4-40c6-8756-4a0131f12a28" />
 <img width="1470" height="956" alt="Screenshot 2026-01-13 at 9 49 14 AM" src="https://github.com/user-attachments/assets/6a39b3b3-2410-4195-83ba-3be49cb60d08" />
+#Unique Tag
+<img width="1342" height="910" alt="image" src="https://github.com/user-attachments/assets/a2af3581-58fb-4ac5-8f0a-da3ec78e47f6" />
