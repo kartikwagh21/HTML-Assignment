@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Embed and Noembed Example</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            text-align: center; 
+            padding-top: 50px;
+        }
+
+        q {
+            color: #00cc00;
+            font-style: italic;
+        }
+
+        embed {
+            border: 2px solid #333;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <q>Testing the rare embed and noembed tags...</q>
+        <br><br>
+
+        <embed src="https://picsum.photos/400/300" width="400" height="300">
+
+        <noembed>
+            <img src="https://picsum.photos/200/200" alt="Alternative Media">
+            <p>Your browser does not support the embed tag.</p>
+        </noembed>
+    </div>
+
+</body>
+</html>
